@@ -1,0 +1,179 @@
+#app .header .headerTop {
+  width: 100%;
+  height: 26px;
+  background-color: #eee;
+}
+#app .header .headerTop .headerTopContent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+#app .header .headerTop .headerTopContent .headerTopLeft {
+  font-size: 14px;
+  display: flex;
+}
+#app .header .headerTop .headerTopContent .headerTopLeft .welcome {
+  font-weight: 600;
+  margin-right: 5px;
+}
+#app .header .headerTop .headerTopContent .headerTopRight {
+  padding-left: 30px;
+  width: 520px;
+}
+#app .header .headerTop .headerTopContent .headerTopRight .headerTopRightList {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+#app .header .headerTop .headerTopContent .headerTopRight .headerTopRightList .item {
+  width: 60px;
+  font-size: 12px;
+  text-align: center;
+  border-right: 1px solid #bbb;
+}
+#app .header .headerTop .headerTopContent .headerTopRight .headerTopRightList .item a {
+  padding-right: 4px;
+  width: 100%;
+  text-align: center;
+  display: block;
+}
+#app .header .headerTop .headerTopContent .headerTopRight .headerTopRightList .item:last-child {
+  border-right: 0;
+}
+#app .header .headerBottom {
+  height: 92px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#app .header .headerBottom .headerBottomLeft {
+  height: 100%;
+  width: 120px;
+}
+#app .header .headerBottom .headerBottomLeft .shoppingCartIcon {
+  color: #ea4a36;
+  font-size: 30px;
+  width: 100px;
+  height: 100%;
+  line-height: 90px;
+  text-align: center;
+}
+#app .header .headerBottom .headerBottomRight {
+  height: 30px;
+  display: flex;
+  width: 400px;
+  border: 2px solid #ea4a36;
+}
+#app .header .headerBottom .headerBottomRight .searchInput {
+  padding: 0 8px;
+  margin: 0;
+  height: 100%;
+  border: 0;
+  flex: 1;
+  font-size: 14px;
+}
+#app .header .headerBottom .headerBottomRight .searchInput::-webkit-input-placeholder {
+  color: #ccc;
+}
+#app .header .headerBottom .headerBottomRight .searchBtn {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  width: 70px;
+  font-size: 14px;
+}
+#app .nav {
+  width: 100%;
+  height: 50px;
+  border-bottom: 2px solid #ea4a36;
+}
+#app .nav .navWrapper {
+  height: 100%;
+  display: flex;
+}
+#app .nav .navWrapper .left {
+  height: 100%;
+  width: 200px;
+  line-height: 100%;
+}
+#app .nav .navWrapper .left a {
+  display: block;
+  height: 100%;
+  line-height: 50px;
+  width: 200px;
+  text-align: center;
+}
+#app .nav .navWrapper .right {
+  height: 100%;
+  font-size: 14px;
+}
+#app .nav .navWrapper .right .navWrapperRightList {
+  display: flex;
+  height: 100%;
+}
+#app .nav .navWrapper .right .navWrapperRightList .item {
+  width: 60px;
+  height: 100%;
+}
+#app .nav .navWrapper .right .navWrapperRightList .item a {
+  display: block;
+  text-align: center;
+  line-height: 50px;
+}
+#app .content {
+  margin-top: 20px;
+}
+#app .content .navPath {
+  font-size: 14px;
+}
+#app .content .navPath a {
+  box-sizing: border-box;
+  padding: 0;
+  text-align: center;
+}
+#app .content .navPath a:hover {
+  text-decoration: underline;
+}
+#app .content .navPath i {
+  padding: 0 6px;
+}
+#app .content .center {
+  margin-top: 20px;
+}
+#app .content .center .left {
+  width: 400px;
+}
+#app .content .center .left .leftTop {
+  width: 400px;
+  position: relative;
+}
+#app .content .center .left .leftTop .smallPic {
+  width: 400px;
+  height: 400px;
+  box-sizing: content-box;
+  border: 1px solid #dfdfdf;
+  position: relative;
+}
+#app .content .center .left .leftTop .smallPic .mask {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 200px;
+  height: 200px;
+  background-color: rgba(255, 255, 255, 0.5);
+  border: 1px solid #ddd;
+}
+#app .content .center .left .leftTop .bigPic {
+  position: absolute;
+  left: 420px;
+  top: 0px;
+  width: 400px;
+  height: 400px;
+  border: 1px solid #ddd;
+  overflow: hidden;
+}
+#app .content .center .left .leftTop .bigPic img {
+  width: 800px;
+  height: 800px;
+}

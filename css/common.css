@@ -1,0 +1,16 @@
+a {
+  color: black;
+}
+.coreWrapper {
+  width: 960px;
+  margin: 0 auto;
+}
+.appBtn {
+  border: 0;
+  background-color: #ea4a36;
+  color: #fff;
+}
+.activeItem {
+  background-color: #ea4a36;
+  color: #fff;
+}

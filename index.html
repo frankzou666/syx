@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>syx</title>
+
+    <!-- 引入resetcss -->
+
+    <link rel="stylesheet" href="./css/reset.css">
+    <!-- fontawsome -->
+    <link rel="stylesheet" href="./webfonts/all.css">
+
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+<body>
+    <!-- 应用开始 -->
+    <div id="app">
+        <!-- 头部 -->
+        <div class="header">
+             <div class="headerTop">
+                <!-- 头部分为两部分，且也是用版心包起来 -->
+                <div class="headerTopContent coreWrapper">
+                    <div class="headerTopLeft">
+                        <span class="welcome">欢迎来到购物商城,请</span>
+                        <span class="loginReg"><a href="javascript:;">登录&nbsp;|&nbsp;注册</a></span>
+                    </div>
+                    <div class="headerTopRight">
+                         <ul class="headerTopRightList">
+                             <li class="item"><a href="javascript:;">我的订单</a></li>
+                             <li class="item"><a href="javascript:;">我的购物</a></li>
+                             <li class="item"><a href="javascript:;">我的优选</a></li>
+                             <li class="item"><a href="javascript:;">我的爱好</a></li>
+                             <li class="item"><a href="javascript:;">企业采购</a></li>
+                             <li class="item"><a href="javascript:;">意向合作</a></li>
+                             <li class="item"><a href="javascript:;">关作我们</a></li>
+                             <li class="item"><a href="javascript:;">商家后台</a></li>
+                         </ul>
+                    </div>
+                </div>
+                
+             </div>
+             <div class="headerBottom coreWrapper">
+                 <div class="headerBottomLeft">
+                     <i class="shoppingCartIcon fa-solid fa-cart-shopping"></i>
+                
+                  </div>   
+                 <div class="headerBottomRight">
+                     <input class="searchInput" type="text" name="" placeholder="请输入搜索内容">
+                     <button class="searchBtn appBtn">搜&nbsp;索</button>
+                 </div>
+             </div>
+        </div>
+
+        <!-- 导航 -->
+        <div class="nav">
+            <div class="navWrapper coreWrapper">
+                <div class="left">
+                    <a href="javascript:;"  class="activeItem">全部商品分类</a>
+                </div>
+                <div class="right">
+                    <ul class="navWrapperRightList">
+                         <li class="item"><a href="javascript:;">服装城</a></li>
+                         <li class="item"><a href="javascript:;">美妆馆</a></li>
+                         <li class="item"><a href="javascript:;">超市</a></li>
+                         <li class="item"><a href="javascript:;">全球购</a></li>
+                         <li class="item"><a href="javascript:;">闪购</a></li>
+                         <li class="item"><a href="javascript:;">团购</a></li>
+                         <li class="item"><a href="javascript:;">有趣</a></li>
+                         <li class="item"><a href="javascript:;">秒杀</a></li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- 内容区开始 -->
+        <div class="content coreWrapper">
+            <!-- 路径导航 -->
+            <div class="navPath" id="navPath">
+                <!-- <a href="javascript:;">手机.数码.通信</a><i>/</i>
+                <a href="javascript:;">手机</a><i>/</i>
+                <a href="javascript:;">Apple苹果</a><i>/</i>
+                <span>iphone 6S系</span> -->
+            </div>
+            <!--商品描述  -->
+            <div class="center">
+                <!--主图和放大镜开始  -->
+                <div class="left">
+                     <div class="leftTop">
+                        <!-- 显示左则小图 -->
+                         <div class="smallPic" id="smallPic">
+                            <img src="./images/s1.png" alt="" class="src">
+                            <!-- 蒙版元素 -->
+                            <!-- <div class="mask"></div> -->
+                         </div>
+                         <!-- 显示右则大图 -->
+                         <!-- <div class="bigPic" id="bigPic">
+                            <img src="./images/b1.png" alt="" class="src">
+                         </div> -->
+                     </div>
+                </div>
+                <!--主图和放大镜结束  -->
+                
+                <!-- 商口详情 -->
+                <div class="rigth">right
+                    
+                </div>
+                <!-- 商口详情 结束-->
+
+            </div>
+
+            <!--商口描述 结束  -->
+        </div>
+
+        <!-- 内容区结束 -->
+
+    </div>
+
+    <!-- 引入js ,注意先后顺序-->
+    <script src="js/data.js"></script>
+    <script src="js/index.js"></script>
+</body>
+</html>
